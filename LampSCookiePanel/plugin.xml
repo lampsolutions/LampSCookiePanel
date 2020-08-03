@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de">Einfaches Cookiepanel</label>
+    <label lang="en">Simple Cookiepanel</label>
+
+    <version>1.0.0</version>
+    <copyright>(c) LAMP solutions GmbH</copyright>
+    <license>MIT</license>
+    <link>https://www.lamp-solutions.de</link>
+    <author>LAMP solutions GmbH</author>
+    <compatibility minVersion="5.2.7"/>
+
+    <changelog version="1.0.0">
+        <changes lang="de">Erstveröffentlichung</changes>
+        <changes lang="en">First release</changes>
+    </changelog>
+
+    <description>
+        <![CDATA[
+  <h1>Cookie Panel</h1>
+    <div class="wrap" style="display: flex;">
+        <div class="card">
+            <p>Das Cookie Panel weist den Webseitenbesucher darauf hin, dass auf deiner Webseite Cookies, wie zum Beispiel von Google Analytics oder dem Facebook Pixel, verwendet werden.<br>
+                Mehrere Cookies können dabei in Kategorien zusammengefasst werden.<br>
+                Der Code für die Cookies wird erst dann ausgeliefert, wenn der Webseitenbesucher dem zugestimmt hat.<br><br>
+                <b>Benötigen Sie Hilfe beim konfigurieren des Plugins?<br>
+                Oder auch individuelle Anpassungen?<br><br>
+                Gerne können Sie uns <a href="https://www.lamp-solutions.de/kontakt/" target="_blank">kontaktieren.</a></b>
+            </p>
+
+        </div>
+
+        <div class="card" style="margin-left: 20px; width: 520px;">
+            <p>
+                <a href="https://www.lamp-solutions.de/kontakt/" target="_blank">
+                    <img style="position: absolute;
+                    width: 90%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;" src="https://www.lamp-solutions.de/wp-content/uploads/2017/02/lamp_logo-e1594198320731.png">
+                </a>
+
+            </p>
+
+        </div>
+    </div>
+
+   ]]>
+    </description>
+    <description lang="de">
+        <![CDATA[
+     <h1>Cookie Panel</h1>
+    <div class="wrap" style="display: flex;">
+        <div class="card">
+            <p>Das Cookie Panel weist den Webseitenbesucher darauf hin, dass auf deiner Webseite Cookies, wie zum Beispiel von Google Analytics oder dem Facebook Pixel, verwendet werden.<br>
+                Mehrere Cookies können dabei in Kategorien zusammengefasst werden.<br>
+                Der Code für die Cookies wird erst dann ausgeliefert, wenn der Webseitenbesucher dem zugestimmt hat.<br><br>
+                Hast du Fragen zum <b>"Cookie Panel-Plugin"</b>? Dann  <a href="https://www.lamp-solutions.de/kontakt/" target="_blank">hinterlasse uns eine Nachricht</a>.
+                Wir freuen uns über deine Anfrage und werden sie zeitnah beantworten.
+            </p>
+            <br />
+            <p>
+                Einen link zum Öffnen der Einstellungen kannst Du überall in Deinem Theme einbauen:
+                javascript:lampCookieOpen()
+                bzw.
+                <pre>&lt;a onclick=&quot;lampCookieOpen()&quot; href=&quot;#&quot;&gt;Cookie Einstellungen &ouml;ffnen&lt;/a&gt;</pre>
+            </p>
+        </div>
+
+        <div class="card" style="margin-left: 20px; width: 520px;">
+            <p>
+                <a href="https://www.lamp-solutions.de/kontakt/" target="_blank">
+                    <img style="width: 100%;" src="https://www.lamp-solutions.de/wp-content/uploads/2017/02/lamp_logo-e1594198320731.png">
+                </a>
+
+            </p>
+
+        </div>
+
+    </div>
+   ]]>
+    </description>
+
+</plugin>

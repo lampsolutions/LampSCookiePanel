@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="text">
+            <name>title</name>
+            <label lang="de">Titel</label>
+            <label lang="en">Title</label>
+            <value>DATENSCHUTZEINSTELLUNGEN</value>
+            <description>The Title of the cookiepanel in storefront</description>
+        </element>
+
+        <element type="html">
+            <name>titletext</name>
+            <label lang="de">Titeltext</label>
+            <label lang="en">Titletext</label>
+            <value>Wir nutzen Cookies auf unserer Website. Einige von ihnen sind essenziell, während andere uns helfen, diese Website und Ihre Erfahrung zu verbessern.</value>
+            <description>The Title-text below the title</description>
+        </element>
+
+        <element type="boolean">
+            <name>show_on_privacy</name>
+            <label lang="de">
+                Impressum / Datenschutz Cookie Panel anzeigen
+                Wenn aktiviert, wird das Cookie Panel auch auf den Seiten "Impressum", "Datenschutz" und "Cookie Informationen" angezeigt (empfohlen: deaktiviert). </label>
+            <label lang="en">If active, Cookie Panel will be shown on linked privacy page and about page.</label>
+            <value>false</value>
+        </element>
+
+        <element type="text">
+            <name>privacy_link</name>
+            <label lang="de">Datenschutzlink</label>
+            <label lang="en">Privacy link</label>
+            <value>/privacy</value>
+            <description>Privacy link</description>
+        </element>
+
+        <element type="text">
+            <name>about_link</name>
+            <label lang="de">Inpressumslink</label>
+            <label lang="en">About link</label>
+            <value>/impressum</value>
+            <description>About link</description>
+        </element>
+
+        <element type="text">
+            <name>grp3</name>
+            <label lang="de">Bezeichnung Gruppe 3</label>
+            <label lang="en">Label group 3 </label>
+            <value>Marketing</value>
+            <description>Label group 3</description>
+        </element>
+
+        <element type="text">
+            <name>grp1</name>
+            <label lang="de">Bezeichnung Gruppe 1</label>
+            <label lang="en">Label group 1 </label>
+            <value>Essenziell</value>
+            <description>Label group 1</description>
+        </element>
+
+        <element type="text">
+            <name>grp2</name>
+            <label lang="de">Bezeichnung Gruppe 2</label>
+            <label lang="en">Label group 2 </label>
+            <value>Statistik</value>
+            <description>Label group 2</description>
+        </element>
+
+        <element type="text">
+            <name>grp3</name>
+            <label lang="de">Bezeichnung Gruppe 3</label>
+            <label lang="en">Label group 3 </label>
+            <value>Marketing</value>
+            <description>Label group 3</description>
+        </element>
+
+        <element type="text">
+            <name>analytics_id</name>
+            <label lang="de">Google Analytics Id</label>
+            <label lang="en">Google Analytics Id</label>
+            <value></value>
+            <description>Google Analytics id (UA-XXXXX-Y)</description>
+        </element>
+
+        <element type="text">
+            <name>tag_manager_id</name>
+            <label lang="de">Google Tag Manager Id</label>
+            <label lang="en">Google Tag Manage Id</label>
+            <value></value>
+            <description>Google Tag Manage id</description>
+        </element>
+
+
+        <element type="text">
+            <name>facebook_id</name>
+            <label lang="de">Facebook Pixel Id</label>
+            <label lang="en">Facebook Pixel Id</label>
+            <value></value>
+            <description>Google Tag Manage id</description>
+        </element>
+
+
+        <element type="mediaselection">
+            <name>logo</name>
+            <label lang="de">Logo</label>
+            <label lang="en">Brand</label>
+            <value></value>
+            <description>The Brand displayed above the cookie bar</description>
+        </element>
+
+        <element type="textarea">
+            <name>custom_css</name>
+            <label lang="de">Eigenes CSS</label>
+            <label lang="en">Custom CSS</label>
+            <value></value>
+            <description>For Example .lamp-cookie-panel{ background-color: #000;}</description>
+        </element>
+
+
+    </elements>
+</config>
